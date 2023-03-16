@@ -7,16 +7,10 @@
  */
 int main(void)
 {
-	char c;
-	int i;
-       	double j;
-	long k;
-	float f;
-
-	printf("Size of a char:%lu.\n", (unsigned long)sizeof(c));
-	printf("Size of an int:%i.\n", (unsigned int)sizeof(i));
-	printf("Size of a long int:%d.\n", sizeof(j));
-	printf("Size of a long long int:%lu.\n", (unsigned long)sizeof(k));
-	printf("Size of a float:%d.\n", sizeof(f));
+	printf("Size of a char:%lu.\n", sizeof(char));
+	printf("Size of an int:%lu.\n", sizeof(int));
+	printf("Size of a long int:%lu.\n", sizeof(long int));
+	printf("Size of a long long int:%lu.\n", sizeof(long long int));
+	printf("Size of a float:%lu.\n", sizeof(float));
 	return (0);
 }

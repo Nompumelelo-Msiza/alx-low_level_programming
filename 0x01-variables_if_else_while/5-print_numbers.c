@@ -7,14 +7,13 @@
  */
 int main(void)
 {
-	int digit;
+	char d;
 
-	digit=0;
-	while (digit<=9)
+	d = 0;
+	while (d < 10)
 	{
-		printf("%d",digit);
-		digit++;
+		printf("%d", d);
+		d++;
 	}
-	putchar('\n');
 	return (0);
 }

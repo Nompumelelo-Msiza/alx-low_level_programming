@@ -7,13 +7,16 @@
  */
 int main(void)
 {
-	char alpha;
+	char str[26], alpha;
+	int i = 0;
 
-	while (alpha < 64 && alpha > 91)
+	alpha = 'a';
+	while (i < 26)
 	{
-		putchar(alpha);
-		alpha++;
+		str[i] = alpha++;
+		putchar(str[i]);
+		i++;
 	}
-	putchar('a');
+	putchar('\n');
 	return (0);
 }

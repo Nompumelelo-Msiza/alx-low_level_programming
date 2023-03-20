@@ -7,13 +7,15 @@
  */
 int main(void)
 {
-	char d;
+	int i = 0, num;
 
-	d = 0;
-	while (d < 10)
+	num = 0;
+	while (i < 10)
 	{
-		printf("%d", d);
-		d++;
+		printf("%d", num);
+		i++;
+		num++;
 	}
+	printf("\n");
 	return (0);
 }

@@ -10,7 +10,7 @@ int main(void)
 	char alpha;
 
 	alpha = 'a';
-	while(alpha < 64 && alpha >91)
+	while (alpha < 64 && alpha > 91)
 	{
 		putchar(alpha);
 		alpha++;

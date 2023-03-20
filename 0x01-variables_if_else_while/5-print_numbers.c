@@ -7,13 +7,14 @@
  */
 int main(void)
 {
-	char alpha;
+	int digit;
 
-	while (alpha < 64 && alpha > 91)
+	digit=0;
+	while (digit<=9)
 	{
-		putchar(alpha);
-		alpha++;
+		printf("%d",digit);
+		digit++;
 	}
-	putchar('a');
+	putchar('\n');
 	return (0);
 }

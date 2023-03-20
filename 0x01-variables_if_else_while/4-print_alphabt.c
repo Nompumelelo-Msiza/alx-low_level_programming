@@ -13,7 +13,7 @@ int main(void)
 	alpha = 'a';
 	while (i < 26)
 	{
-		if ((i!=4)&&(i!=16))
+		if ((i != 4) && (i != 16))
 		{
 			str[i] = alpha++;
 			putchar(str[i]);

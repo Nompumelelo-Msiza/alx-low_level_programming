@@ -13,7 +13,7 @@ int _islower(int c)
 	low_a = 'a';
 	low_z = 'z';
 	if (c <= low_z && c >= low_a)
-		return (1);
+		return (c = 1);
 	else
-		return (0);
+		return (c = 0);
 }

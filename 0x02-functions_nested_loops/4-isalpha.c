@@ -16,7 +16,13 @@ int _isalpha(int c)
 	upper_a = 'A';
 	upper_z = 'Z';
 	if ((c <= upper_a) && (c >= upper_z))
+	{
 	       	return (1);
+	}
+	else if ((c <= low_a) && (c >= low_z))
+	{
+		return (1);
+	}
 	else
 		return (0);
 }

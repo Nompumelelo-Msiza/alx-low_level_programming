@@ -9,7 +9,8 @@
 
 int _isalpha(int c)
 {
-	char low_a, low_z, upper_a, upper_z;
+	char low_a, low_z;
+	char upper_a, upper_z;
 
 	low_a = 'a';
 	low_z = 'z';

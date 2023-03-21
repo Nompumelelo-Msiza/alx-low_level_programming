@@ -9,18 +9,11 @@
 
 int _isalpha(int c)
 {
-	char low_a, low_z;
-	char upper_a, upper_z;
-
-	low_a = 'a';
-	low_z = 'z';
-	upper_a = 'A';
-	upper_z = 'Z';
-	if ((c <= upper_a) && (c >= upper_z))
+	if (c <= 65 && c >= 90)
 	{
 		return (1);
 	}
-	else if ((c <= low_a) && (c >= low_z))
+	else if (c <= 97 && c >= 122)
 	{
 		return (1);
 	}

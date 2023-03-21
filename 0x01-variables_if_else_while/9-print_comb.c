@@ -14,7 +14,10 @@ int main(void)
 	comm = 44;
 	while (i < 10)
 	{
-		putchar(num);
+		if (i <= 9)
+		{
+			putchar(num);
+		}
 		putchar(comm);
 		putchar(space);
 		i++;
